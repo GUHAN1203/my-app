@@ -10,7 +10,7 @@ function Home() {
     <div className="cushead">
       <div className="firstpage">
         <div className="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2" style={{ color: 'azure' }}>
-          <div className="logo col-md-3">
+          <div style={{color:'#DF6951'}} className="logo col-md-3 ">
             <h3>Travel</h3>
           </div>
           <ul className="navigator nav  justify-content-center">
@@ -25,7 +25,7 @@ function Home() {
                 <a href="#">Build Package</a>
               </div>
             </li>
-            <li><a href="#" className="nav-link px-2 link-light">Upcoming Packages</a></li>
+            <li><a href="/packages" className="nav-link px-2 link-light">Upcoming Packages</a></li>
           </ul>
           <div className="navbut col text-end">
             <button style={{ backgroundColor: '#DF6951', color: 'azure' }} type="button" className="btn">Get in Touch</button>
