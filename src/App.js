@@ -5,7 +5,7 @@ import { db } from './firebase-config';
 import{collection,getDocs} from "firebase/firestore";
 import Packages from './Pages/packages';
 
-function App() {
+function App() {                                                                                                  
   <BrowserRouter>
 < Routes>
 <Route path ='packages' element={< Packages />} />
